@@ -1,1 +1,1 @@
-Just revamping my HTML AND CSS knowledge.
+Just recalling my HTML AND CSS knowledge.
