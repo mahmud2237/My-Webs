@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form action="">
+                <label for="name"> Your Name:
+                    <input id="name" type="text" placeholder="Your Name Here">
+                </label>
+                <label for="email"> Your Email:
+                    <input id="email" type="text" placeholder="Your Email">
+                </label>
+                <label for="phone"> Your Phone:
+                    <input id="phone" type="number" placeholder="Your Phone Number">
+                </label>
+
+                <fieldset>
+                    <legend>Pick Your Course</legend>
+                    <label for="graphics">
+                        <input id="graphics" type="radio" name="course"> Graphics
+                    </label>
+                    <label for="web">
+                        <input id="web" type="radio" name="course"> Web
+                    </label>
+                    <label for="video">
+                        <input id="video" type="radio" name="course"> Video Editing
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick one or more software that you know</legend>
+                    <label for="illustrator">
+                        <input id="illustrator" type="checkbox" name="software"> Adobe Illustrator
+                    </label>
+                    <label for="photoshop">
+                        <input id="photoshop" type="checkbox" name="software"> Adobe Photoshop
+                    </label>
+                    <label for="VScode">
+                        <input id="VScode" type="checkbox" name="software"> VS Code
+                    </label>
+                    <label for="capcut">
+                        <input id="capcut" type="checkbox" name="software"> Capcut
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="120" rows="6"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

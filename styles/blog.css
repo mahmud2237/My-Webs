@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
+header{
+    display: flexbox;
+} 
 p, li, h1{
     color: red;
     width: 500px;
-    border: 3px solid;
 }
 
 html{
