@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Another Page</title>
     <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
     <header>
@@ -12,7 +13,22 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">About</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a>
+                            <ul class="dropdown">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="form.html">Form</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="form.html">Form</a></li>
+                    </ul>
+                
+                </li>
                 <li><a href="form.html">Form</a></li>
             </ul>
         </nav>

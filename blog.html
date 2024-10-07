@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Website</title>
     <link href="styles/blog.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
     <header>
@@ -13,7 +13,21 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">About</a>
+                <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a>
+                            <ul class="dropdown">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="form.html">Form</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="form.html">Form</a></li>
+                    </ul>
+                </li>
                 <li><a href="form.html">Form</a></li>
             </ul>
         </nav>
@@ -33,7 +47,7 @@
     <p>Lorem, ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Ab ea, reprehenderit accusantium error doloremque sint quas sit harum incidunt molestiae rerum enim quis voluptatibus eveniet voluptates neque sunt officiis voluptatum.</p>
     <h3>Enter your Email</h3>
     <input type="Gmail" placeholder="Your Email">
-    <input type="password" placeholder="Your password">
+    <button id="btn">Subscribe</button>
     <h2>Let's visit the second page</h2>
     <a href="new.htm">Follow this link</a>
     <div class="img1">
